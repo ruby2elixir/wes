@@ -38,9 +38,7 @@ add(Name, Timeout, Now, Timeouts) ->
 new() ->
     dict:new().
 
-now_milli() ->
-    {MegaSecs, Secs, MicroSecs} = os:timestamp(),
-    (MegaSecs * 1000000 + Secs) * 1000 + (MicroSecs div 1000).
+now_milli() -> erlang:system_time(milli_seconds).
 
 time_diff(infinity, _) -> infinity;
 time_diff(A, B) -> max(0, A - B).

@@ -116,6 +116,4 @@ code_change(_OldVsn, State, _Extra) ->
 %%% Internal functions
 %%%===================================================================
 
-now_seconds() ->
-    {Mega, Secs, _} = now(),
-    Mega * 1000000 + Secs.
+now_seconds() -> erlang:system_time(seconds).
