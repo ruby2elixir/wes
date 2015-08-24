@@ -38,7 +38,7 @@ implement.
 ### Name Registry
 A name registry implementation keeps track of the process each channel is
 running in and to which channel an actor is listening. This registry acts as a
-lock for a certain actor, preventing it from being started twice.
+lock for a certain channel or actor, preventing it from being started twice.
 
 WES provides some predefined registry implementations:
 
