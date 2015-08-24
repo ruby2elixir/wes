@@ -1,9 +1,8 @@
-{application, wes,
- [
-  {description, ""},
-  {vsn, "0.1.10"},
-  {registered, []},
-  {applications, [kernel, stdlib]},
-  {mod, {wes_app, []}},
-  {env, []}
- ]}.
+{application, wes, [
+    {description, "Wooga Event System"},
+    {vsn, "0.1.10"},
+    {registered, []},
+    {applications, [kernel, stdlib]},
+    {mod, {wes_app, []}},
+    {env, []}
+]}.
