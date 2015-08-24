@@ -82,7 +82,8 @@ WES provides some predefined persistence implementations:
 * `wes_db_null` - Doesn't store anything. Can be used for short lived actors
   that doesn't need to store any persistent state.
 * `wes_db_ets` - In-memory, single node storage backed by ETS.
-* `wes_db_s3` - Amazon AWS S3 backed storage.
+* [`wes_db_s3`](https://github.com/wooga/wes_db_s3) - Amazon AWS S3 backed
+  storage (external repository).
 
 ### Statistics
 A stats implementation gets statistics about what happens in each channel.
