@@ -45,7 +45,7 @@ WES provides some predefined registry implementations:
 * `wes_lock_null` - Doesn't lock anything. Can be used to start many copies of
   the same actor.
 * `wes_lock_ets` - In-memory, single node lock backed by ETS.
-* `wes_locker` - Locker backed registry, for multi-node systems.
+* [`wes_lock_locker`](https://github.com/wooga/wes_lock_locker) - Locker backed registry, for multi-node systems (external repository).
 
 ### Channels
 A channel receives commands and reads. Commands are broad-casted to all actors

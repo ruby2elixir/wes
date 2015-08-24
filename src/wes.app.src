@@ -3,12 +3,7 @@
   {description, ""},
   {vsn, "0.1.10"},
   {registered, []},
-  {included_applications,
-   [locker, s3erl]},
-  {applications, [
-                  kernel,
-                  stdlib
-                 ]},
-  {mod, { wes_app, []}},
+  {applications, [kernel, stdlib]},
+  {mod, {wes_app, []}},
   {env, []}
  ]}.

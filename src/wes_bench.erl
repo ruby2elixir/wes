@@ -6,7 +6,7 @@ bench(N, M, Sleep) ->
     timer:tc(
       fun() ->
               {ok, _} = wes_sup:start_link([], []),
-              wes_locker:start([node()], [], 1, 1000, 1000, 100),
+              wes_lock_ets:start(1000),
               do(N, M, Sleep)
       end).
 
