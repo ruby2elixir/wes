@@ -1,5 +1,5 @@
 # WES
-[![Tag](https://img.shields.io/github/tag/strongloop/express.svg?style=flat-square)](https://github.com/wooga/wes/tags)
+[![Tag](https://img.shields.io/github/tag/wooga/wes.svg?style=flat-square)](https://github.com/wooga/wes/tags)
 [![Build Status](http://img.shields.io/travis/wooga/wes.svg?style=flat-square)](http://travis-ci.org/wooga/wes)
 [![Code Climate](http://img.shields.io/badge/code_climate-Erlang_18.0-brightgreen.svg?style=flat-square)](https://travis-ci.org/wooga/wes)
 
