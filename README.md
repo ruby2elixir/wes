@@ -1,5 +1,7 @@
 # WES
-[![Build Status](https://travis-ci.org/wooga/wes.png?branch=master)](https://travis-ci.org/wooga/wes)
+[![Release](http://img.shields.io/github/release/wooga/wes.svg?style=flat-square)](https://github.com/wooga/wes/releases/latest)
+[![Build Status](http://img.shields.io/travis/wooga/wes.svg?style=flat-square)](http://travis-ci.org/wooga/wes)
+[![Code Climate](http://img.shields.io/badge/code_climate-Erlang_18.0-brightgreen.svg?style=flat-square)](https://travis-ci.org/wooga/wes)
 
 ## Introduction
 WES is a library that helps you build actor based services in Erlang.
